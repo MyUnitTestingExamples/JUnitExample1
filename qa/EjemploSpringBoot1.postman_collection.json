@@ -1,0 +1,34 @@
+{
+	"info": {
+		"_postman_id": "5a6e84e1-4b06-4d3a-89dd-df6309118db3",
+		"name": "EjemploSpringBoot1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Ejemplo1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/welcome?param=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"welcome"
+					],
+					"query": [
+						{
+							"key": "param",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
